@@ -1,0 +1,15 @@
+#!/bin/bash
+
+git status
+
+git add .
+
+echo "Type your commit message below, Alex"
+
+read commit
+
+git commit -m "$commit"
+
+git push
+
+git status
